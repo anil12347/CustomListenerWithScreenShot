@@ -28,4 +28,12 @@ public class ScreenShotSample extends Base {
 	public void SearchPage(){
 		Assert.assertEquals(false, true);
 	}
+	@Test
+	public void FindStore(){
+		Assert.assertEquals(true, true);
+	}
+	@Test
+	public void articles(){
+		Assert.assertEquals(true, true);
+	}
 }
